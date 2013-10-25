@@ -1,0 +1,16 @@
+%%-*- mode: erlang -*-
+{application, egs, [
+	{description, "EGS online action-RPG game server"},
+	{vsn, "0.14"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		crypto,
+		ssl,
+		cowboy
+	]},
+	{mod, {egs_app, []}},
+	{env, []}
+]}.
